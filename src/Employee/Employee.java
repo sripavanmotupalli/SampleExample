@@ -7,6 +7,9 @@ public class Employee {
 	private String EmployeeDepartment;
 	private double EmployeeSalary;
 	private String EmployeeAdress;
+
+public Employee() {
+}
 	
 	public Employee(int employeeId, String employeeName, String employeeDepartment, double employeeSalary,
 			String employeeAdress) {
